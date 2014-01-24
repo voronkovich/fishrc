@@ -12,9 +12,12 @@ alias x 'extract'
 alias g 'git'
 alias ga 'git add'
 alias gaa 'git add .'
+alias gb 'git branch'
 alias gc 'git commit'
+alias gco 'git checkout'
 alias gp 'git push'
 alias gl 'git pull'
+alias gs 'git status'
 
 # Plugins
 function Plugin -d 'Enable plugin'
