@@ -17,7 +17,7 @@ alias gc 'git commit'
 alias gco 'git checkout'
 alias gp 'git push'
 alias gl 'git pull'
-alias gs 'git status'
+alias gst 'git status'
 
 # Plugins
 function Plugin -d 'Enable plugin'
