@@ -7,11 +7,17 @@ set fish_theme clearance
 set -x EDITOR "stty stop '' -ixoff ; vim"
 
 # Aliases
-alias e="$EDITOR"
-alias x="extract"
+alias e "$EDITOR"
+alias x 'extract'
 
 # Plugins
-set fish_plugins extract gitignore jump
+function Plugin -d 'Enable plugin';
+    set -g fish_plugins $argv $fish_plugins;
+end
+Plugin 'extract'
+Plugin 'gitignore'
+Plugin 'jump'
+Plugin 'git'
 
 set fish_custom $HOME/.config/fish
 
